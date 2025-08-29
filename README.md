@@ -1,53 +1,61 @@
-WhatsApp Clone
+---
 
-A real-time messaging application built with React and Firebase, replicating the core features of WhatsApp.
+# WhatsApp Clone
 
-Features
+A real-time messaging application built with **React** and **Firebase**, replicating core features of WhatsApp. Perfect for learning real-time chat implementation, authentication, and modern web development practices.
 
-Real-time Messaging: Instant chat functionality with WebSocket support.
+---
 
-User Authentication: Secure sign-up and login using Firebase Authentication.
+## 🚀 Features
 
-Chat Rooms: Create and join multiple chat rooms.
+* **Real-time Messaging** – Instant chat with Firestore database.
+* **User Authentication** – Sign up and login securely using Firebase Authentication.
+* **Chat Rooms** – Create and join chat rooms.
+* **Media Sharing** – Send images, videos, and files.
+* **Push Notifications** – Get notified of new messages.
 
-Media Sharing: Send images, videos, and documents.
+---
 
-Push Notifications: Real-time notifications for new messages.
+## 🛠 Tech Stack
 
-Tech Stack
+* **Frontend**: React, Redux, React Router
+* **Backend**: Firebase Firestore, Firebase Authentication
+* **Styling**: CSS Modules, Material-UI
 
-Frontend: React, Redux, React Router
+---
 
-Backend: Firebase Firestore, Firebase Authentication
+## ⚡ Installation
 
-Styling: CSS Modules, Material-UI
+1. **Clone the repository**
 
-Installation
-
-Clone the repository:
-
+```bash
 git clone https://github.com/Divyansh2412/whatsapp-clone.git
 cd whatsapp-clone
+```
 
+2. **Install dependencies**
 
-Install dependencies:
-
+```bash
 npm install
+```
 
+3. **Start the development server**
 
-Start the development server:
-
+```bash
 npm start
+```
 
-Firebase Setup
+Your app will run at `http://localhost:3000`.
 
-Create a Firebase project at Firebase Console
-.
+---
 
-Enable Firestore and Firebase Authentication (Email/Password).
+## 🔧 Firebase Setup
 
-Obtain your Firebase config object and replace the placeholder in src/firebase.js:
+1. Go to [Firebase Console](https://console.firebase.google.com/) and create a new project.
+2. Enable **Firestore** and **Authentication** (Email/Password).
+3. Replace the Firebase config in `src/firebase.js`:
 
+```javascript
 const firebaseConfig = {
   apiKey: "YOUR_API_KEY",
   authDomain: "YOUR_AUTH_DOMAIN",
@@ -56,22 +64,23 @@ const firebaseConfig = {
   messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
   appId: "YOUR_APP_ID"
 };
+```
 
-Contributing
+---
 
-Fork the repository.
+## 🤝 Contributing
 
-Create a new branch (git checkout -b feature-name).
+1. Fork the repository
+2. Create a new branch: `git checkout -b feature-name`
+3. Make your changes
+4. Commit your changes: `git commit -m "Add new feature"`
+5. Push to your branch: `git push origin feature-name`
+6. Open a Pull Request
 
-Make your changes.
+---
 
-Commit your changes (git commit -am 'Add new feature').
+## 📄 License
 
-Push to the branch (git push origin feature-name).
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
-Create a new Pull Request.
-
-License
-
-This project is licensed under the MIT License - see the LICENSE
- file for details.
+---
